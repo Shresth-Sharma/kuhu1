@@ -1,0 +1,23 @@
+body{
+  background-color:rgb(255, 136, 0);
+  animation: games 30s infinite;
+}
+.kuhu1{
+  Display:flex;
+  justify-content: space-evenly;
+  color:#0000ff;
+}
+.kuhu2{
+  Display:flex;
+  justify-content: space-evenly;
+  color:#0000ff;
+}
+.kuhu3{
+  Display:flex;
+  justify-content: space-evenly;
+  color:#0000ff;
+}
+@keyframes games {
+  from {background-color: rgb(255, 136, 0);}
+  to {background-color: rgb(255, 0, 149);}
+}
